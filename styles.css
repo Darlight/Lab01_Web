@@ -2,7 +2,56 @@ html, body {
     font-size: 4px;
     font-family: sans-serif;
 }
+body {
+    background-color: #f1f6f6;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 0 2px 1px rgba(0, 0, 0, 0.04);
+  position: fixed;
+  width: 100%;
+}
+h2{
+    width: 247px;
+    height: 29px;
+    color: #00a09b;
+    font-family: "Open Sans";
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 19.6px;
+}
+h3{
 
+    width: 189px;
+    height: 13px;
+    color: #bdbdbd;
+    font-family: "Open Sans";
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 19.6px;
+    letter-spacing: 1.37px;
+}
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
 
 /* body {
     background: papayawhip;
@@ -57,7 +106,7 @@ a:hover {
     bottom: 50px;
     right: 100px;
 } */
-
+/*
 .book {
     border-radius: 2rem;
     box-shadow: 1px 1px 5px 0px rgba(0, 0, 0, 0.5);
