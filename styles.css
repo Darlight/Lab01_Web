@@ -11,63 +11,100 @@ ul {
   padding: 0;
   overflow: hidden;
 }
+header {
+    width: 100%;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.04);
+    align-items: baseline;
+}
+.navbar_left {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+
+}
+.navbar_right {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: baseline;
+}
 .schoolname{
+    display: flex;
     width: 247px;
     height: 29px;
     color: #00a09b;
+    padding-left: 20px;
     font-family: "Open Sans";
     font-size: 28px;
     font-weight: 700;
     line-height: 19.6px;
 }
 .text1{
+    display: flex;
     width: 189px;
     height: 13px;
     color: #bdbdbd;
+    padding-top: 4rem;
     font-family: "Open Sans";
     font-size: 15px;
     font-weight: 400;
     line-height: 19.6px;
     letter-spacing: 1.37px;
 }
-.img1 {
-
-}
-.img2 {
-    
-}
-.password {
-
-}
-.username {
-
-}
-.navbar {
-    width: 100%;
-    background-color: #ffffff;
+.img1 {/* Style for "" */
+    width: 16px;s
+    height: 21px;
+    font-family: "Font Awesome";
     display: flex;
-    flex-direction: row;
-    position: fixed; 
-    box-shadow: 0 2px 1px rgba(0, 0, 0, 0.04);
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 14.55px;
+}
+.img2 {/* Style for "icons copy" */
+    width: 21px;
+    height: 14px;
+    display: flex;
+    color: #00c4c0;
+}
+.password {/* Style for "CONTRASEÑA" */
+    width: 131px;
+    display: flex;
+    height: 17px;
+    color: #00c4c0;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 14.55px;
+    text-transform: uppercase;
+}
+.password i {
+    padding-right: 3rem;
+}
+.username {/* Style for "John Doe" */
+    width: 106px;
+    height: 23px;
+    padding: 3rem;
+    display: flex;
+    color: #00a09b;
+    font-family: "Open Sans";
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 15.92px;
+}
+.username i {
+
 }
 
-li {
-  float: left;
-  border-right: 1px solid #bbb;
-}
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
+/* 
 li a:hover {
   background-color: #111;
 }
+ */
 
 /* body {
     background: papayawhip;
