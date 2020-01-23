@@ -343,3 +343,9 @@ li:hover {
     right: 0;
     width: 12rem;
 }
+i.fa-ellipsis-v {
+    font-size: 5rem;
+    margin-top: 6rem;
+    margin-left: 6rem;
+    color: #d6e1e1;
+}
